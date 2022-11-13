@@ -1,0 +1,133 @@
+/*RETIRANDO AS LINHAS DE DECORAÇÃO QUE SUBLINHAM OS LINKS*/
+a {
+    text-decoration-line: none;
+}
+/*ADICIONANDO FONTE AO CORPO DO HTML*/
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(206, 206, 206);
+}
+/*FUNÇÃO PARA DAR O EFEITO DE ROLAGEM*/
+html{
+    scroll-behavior: smooth;
+}
+/*FUNÇÃO QUE FARÁ COM QUE A ROLAGEM SEJA FEITA */
+section{
+    min-height: 100vh;
+}
+*{
+    margin: 0;
+  }
+/*MODIFICAÇÕES NO H1, TAMANHO,FONTE,COR E MARGEM RETIRADA.*/  
+h1 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 75px;
+    color: dimgray;
+    margin: 0;
+    
+}
+/*MODIFICAÇÕES NO H3, TAMANHO,FONTE,COR, MARGEM DE CIMA ADICIONADA E H3 MARGEM A ESQUERDA..*/  
+h3{
+    position: relative;
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+    color: dimgray;
+    margin-top: 30px;
+    left: 10px;
+}
+/*MODIFICAÇÕES NAS LISTAS*/  
+li{
+  margin-top: 30px;
+  font-size: 17px;
+}
+/*BLOCO EM LINHA*/ 
+div {
+    display: inline-block;
+    
+  }
+/*MUDANÇAS NA DIV1*/
+  .div1 {
+    margin-top: 0;
+    font-family: 'Silkscreen', cursive;
+    padding-top: 200px;
+    background-color: rgb(169,169,169);  
+    height: 100%;
+    width: 20%; 
+    text-align: center;
+    color: blue;
+    background-attachment: fixed;
+    position: fixed;
+
+  }
+/*MUDANÇAS NA DIV2*/
+  .div2 {
+    position: absolute;
+    left: 20%;
+    /*background-color: orange;*/
+    height: 1000px;
+    width: 1000px; 
+    margin: 30px;
+    padding-top: 200px;
+  }
+/*MUDANÇAS NA DIV2/SPAN*/
+  .div2 span{
+    position: relative;
+    left: 10px;
+  }
+/*TAMANHO DA IMAGEM*/
+ .div1 img{
+    height: 300px;
+    width: 300px;
+  }
+/*TAMANHO DA IMAGEM*/
+  .div2 .div3 img{
+    margin-top: 20px;
+    height: 90px;
+    width: 60px;
+  }
+/*INTERLIGANDO A FUNÇÃO DE ROLAGEM COM O LINK*/
+#curriculum{
+    height: 100vh;
+}
+/*INTERLIGANDO A FUNÇÃO DE ROLAGEM COM O LINK*/
+#academic_production{
+    height: 100vh;
+}
+/*INTERLIGANDO A FUNÇÃO DE ROLAGEM COM O LINK*/
+#contacts{
+    height: 100vh;
+}
+/*AS DIVS FORAM PADRONIZADAS COM AS MESMAS CONFIGURAÇÕES*/
+.div4{
+    position: absolute;
+    left: 20%;
+    height: 1000px;
+    width: 1000px; 
+    margin: 30px;
+    padding-top: 200px;
+}
+/*AS DIVS FORAM PADRONIZADAS COM AS MESMAS CONFIGURAÇÕES*/
+.div5{
+    position: absolute;
+    left: 20%;
+    height: 1000px;
+    width: 1000px; 
+    margin: 30px;
+    padding-top: 200px;
+}
+/*AS DIVS FORAM PADRONIZADAS COM AS MESMAS CONFIGURAÇÕES*/
+.div6{
+    position: absolute;
+    left: 20%;
+    height: 1000px;
+    width: 1000px; 
+    margin: 30px;
+    padding-top: 200px;
+}
+/*AS DIVS FORAM PADRONIZADAS COM AS MESMAS CONFIGURAÇÕES*/
+p{
+  margin-top: 30px;
+  position: relative;
+  left: 10px;
+  font-size: 17px;
+}
